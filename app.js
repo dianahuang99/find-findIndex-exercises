@@ -3,11 +3,6 @@ function findUserByUsername(arr, val) {
     return obj.username === val;
   });
 }
-const users = [
-  { username: "mlewis" },
-  { username: "akagen" },
-  { username: "msmith" },
-];
 
 function removeUser(arr, val) {
   let userIndex = arr.findIndex(function (obj) {
